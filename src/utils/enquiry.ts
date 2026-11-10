@@ -26,5 +26,5 @@ export function createWhatsAppUrl(phone: string, text: string): string {
 }
 
 export function createServiceEnquiryMessage(service: string): string {
-  return `Hello Food Circle, I would like to enquire about ${service}. Please share how you can support my food business.`;
+  return `Hello Food Circle, I would like to enquire about your ${service} service. Please share more details.`;
 }

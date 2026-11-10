@@ -29,10 +29,10 @@ test('createWhatsAppUrl creates valid wa.me link with encoded text', () => {
   assert.equal(url, 'https://wa.me/919137639148?text=Hello%20Food%20Circle');
 });
 
-test('createServiceEnquiryMessage includes service name', () => {
-  const msg = createServiceEnquiryMessage('FSSAI Licensing');
+test('createServiceEnquiryMessage includes service name in exact format', () => {
+  const msg = createServiceEnquiryMessage('FSSAI Licensing & Registration Assistance');
   assert.equal(
     msg,
-    'Hello Food Circle, I would like to enquire about FSSAI Licensing. Please share how you can support my food business.'
+    'Hello Food Circle, I would like to enquire about your FSSAI Licensing & Registration Assistance service. Please share more details.'
   );
 });
