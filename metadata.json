@@ -1,0 +1,6 @@
+{
+  "name": "Food Circle - Food Safety & Compliance Consultancy",
+  "description": "Practical food safety and regulatory compliance guidance for food businesses in Mumbai, Maharashtra. Explore audits, HACCP, FSMS, FSSAI licensing and more with Food Circle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
