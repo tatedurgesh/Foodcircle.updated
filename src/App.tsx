@@ -13,20 +13,20 @@ import {
   Boxes, CookingPot, Store, Milk, CakeSlice, Coffee, Warehouse,
 } from 'lucide-react';
 
-import imgFssaiLicensing from './assets/images/fssai_licensing_1794295230783.jpg';
-import imgHygieneAudits from './assets/images/hygiene_audits_1794295231929.jpg';
-import imgSchedule4 from './assets/images/schedule_4_compliance_1794295231402.jpg';
-import imgHaccpFsms from './assets/images/haccp_fsms_documentation_1794295231621.jpg';
-import imgIso22000 from './assets/images/iso_22000_consultancy_1794295232372.jpg';
-import imgInternalAudits from './assets/images/internal_audits_checks_1794295231951.jpg';
-import imgStaffAwareness from './assets/images/staff_awareness_1794295232544.jpg';
-import imgFoodTesting from './assets/images/food_testing_coordination_1794295233300.jpg';
-import imgFoodLabelling from './assets/images/food_labelling_compliance_1794295232481.jpg';
-import imgNewBusiness from './assets/images/new_food_business_setup_1794295250347.jpg';
-import imgDocumentation from './assets/images/documentation_record_management_1794295251699.jpg';
-import imgTemperatureControl from './assets/images/temperature_storage_checks_1794295250997.jpg';
-import imgAuditPrep from './assets/images/audit_prep_corrective_action_1794295252350.jpg';
-import imgProcessImprovement from './assets/images/food_safety_process_improvement_1794295252478.jpg';
+import imgFssaiLicensing from './assets/images/fssai_licensing_paper_art_1794297057214.jpg';
+import imgHygieneAudits from './assets/images/food_safety_audit_paper_art_1794297058268.jpg';
+import imgSchedule4 from './assets/images/schedule_4_compliance_paper_art_1794297058430.jpg';
+import imgHaccpFsms from './assets/images/haccp_fsms_paper_art_1794297058780.jpg';
+import imgIso22000 from './assets/images/iso_22000_consultancy_paper_art_1794297059151.jpg';
+import imgInternalAudits from './assets/images/internal_audit_paper_art_1794297060008.jpg';
+import imgStaffAwareness from './assets/images/food_safety_training_paper_art_1794297060450.jpg';
+import imgFoodTesting from './assets/images/food_testing_paper_art_1794297078975.jpg';
+import imgFoodLabelling from './assets/images/food_labelling_paper_art_1794297078588.jpg';
+import imgNewBusiness from './assets/images/food_business_setup_paper_art_1794297080004.jpg';
+import imgDocumentation from './assets/images/documentation_management_paper_art_1794297080448.jpg';
+import imgTemperatureControl from './assets/images/temperature_control_paper_art_1794297087498.jpg';
+import imgAuditPrep from './assets/images/audit_preparation_paper_art_1794297082201.jpg';
+import imgProcessImprovement from './assets/images/process_improvement_paper_art_1794297082205.jpg';
 
 const phone = '+919137639148';
 const email = 'info@foodcircle.co.in';
@@ -121,98 +121,98 @@ const services = [
     title: 'FSSAI Licensing & Registration Assistance',
     desc: 'Understand the licence or registration pathway relevant to your food business and prepare the supporting information.',
     image: imgFssaiLicensing,
-    alt: 'FSSAI licensing and registration assistance paperwork for food business in Mumbai',
+    alt: 'Minimal paper art illustration of food storefront, compliance checklist, and approval seal in cream, orange, teal, and green',
   },
   {
     id: 'hygiene-audits',
     title: 'Food Safety & Hygiene Audits',
     desc: 'A practical review of hygiene conditions, handling practices and records, with findings clearly organised for action.',
     image: imgHygieneAudits,
-    alt: 'Professional food safety auditor conducting hygiene inspection in commercial kitchen environment',
+    alt: 'Minimal paper art illustration of inspector checklist, magnifying glass, and kitchen hygiene symbols in lavender, purple, and pink',
   },
   {
     id: 'schedule-4-compliance',
     title: 'FSSAI Schedule 4 Compliance',
     desc: 'Guidance to interpret applicable hygiene requirements and translate them into workable day-to-day practices.',
     image: imgSchedule4,
-    alt: 'Sanitary commercial food preparation facility adhering to FSSAI Schedule 4 standards',
+    alt: 'Minimal paper art illustration of sanitary handwashing station, clean utensils, and hygiene checklist in sky blue, navy, and cream',
   },
   {
     id: 'haccp-fsms-documentation',
     title: 'HACCP & Food Safety Management System (FSMS) Documentation',
     desc: 'Build structured food safety documentation around your products, processes, hazards and operational controls.',
     image: imgHaccpFsms,
-    alt: 'HACCP hazard analysis and critical control points documentation review',
+    alt: 'Minimal paper art illustration of food hazard process flowchart, safety shield, and FSMS binder in terracotta, sand, and olive',
   },
   {
     id: 'iso-22000-consultancy',
     title: 'FSSC 22000 / ISO 22000 Consultancy',
     desc: 'Practical consultancy support for food safety management system development, review and readiness.',
     image: imgIso22000,
-    alt: 'Food safety consultant auditing food manufacturing facility for ISO 22000 compliance',
+    alt: 'Minimal paper art illustration of food processing factory silhouette and quality binder in mint green, coral, and white',
   },
   {
     id: 'internal-audits-checks',
     title: 'Internal Audits & Compliance Checks',
     desc: 'Check systems and records against relevant requirements, then make observations easy to prioritise.',
     image: imgInternalAudits,
-    alt: 'Quality supervisor reviewing internal audit checklist and facility records',
+    alt: 'Minimal paper art illustration of internal audit checklist, filing folders, and calendar in mustard yellow, teal, and cream',
   },
   {
     id: 'staff-awareness',
     title: 'Food Safety Staff Awareness',
     desc: 'Help teams understand hygienic handling, responsibilities and the everyday practices that support safe food.',
     image: imgStaffAwareness,
-    alt: 'Food handlers and kitchen staff attending food safety and hygiene awareness training',
+    alt: 'Minimal paper art illustration of food handlers and kitchen staff in a hygiene training session in dusty blue, peach, and white',
   },
   {
     id: 'food-testing-coordination',
     title: 'Food Testing Coordination',
     desc: 'Coordinate testing requirements with appropriate laboratories and help organise the related records.',
     image: imgFoodTesting,
-    alt: 'Microbiological and chemical food sample testing in certified testing laboratory',
+    alt: 'Minimal paper art illustration of laboratory test tubes, sample flasks, and microscope in sage green, burgundy, and cream',
   },
   {
     id: 'food-labelling-compliance',
     title: 'Food Labelling & Regulatory Compliance Guidance',
     desc: 'Review label information for relevant regulatory considerations and clear, consistent product communication.',
     image: imgFoodLabelling,
-    alt: 'Food packaging label inspection for FSSAI regulatory compliance',
+    alt: 'Minimal paper art illustration of food packaging box with nutrition label grid and magnifying glass in soft yellow, forest green, and blue',
   },
   {
     id: 'new-food-business-setup',
     title: 'New Food Business Setup Guidance',
     desc: 'Plan food safety fundamentals, documentation and compliance considerations for a new food operation.',
     image: imgNewBusiness,
-    alt: 'New commercial kitchen and food facility setup layout planning',
+    alt: 'Minimal paper art illustration of commercial kitchen storefront and architectural blueprint layout in coral, lavender, and beige',
   },
   {
     id: 'documentation-record-management',
     title: 'Food Safety Documentation & Record Management',
     desc: 'Create or organise practical records that make routine controls clearer and easier to maintain.',
     image: imgDocumentation,
-    alt: 'Organised food safety record management folders and compliance logs',
+    alt: 'Minimal paper art illustration of organized file cabinet, compliance binders, and digital tablet in turquoise, orange, and ivory',
   },
   {
     id: 'temperature-storage-checks',
     title: 'Hygiene, Storage & Temperature Control Checks',
     desc: 'Review cleanliness, storage conditions and temperature-monitoring practices across your operation.',
     image: imgTemperatureControl,
-    alt: 'Cold storage room temperature monitoring gauge and storage cleanliness check',
+    alt: 'Minimal paper art illustration of cold storage refrigerator, digital thermometer gauge, and fresh food in olive, mustard, and grey',
   },
   {
     id: 'audit-prep-corrective-action',
     title: 'Audit Preparation & Corrective Action Support',
     desc: 'Organise evidence, prepare teams and structure corrective actions ahead of an audit or assessment.',
     image: imgAuditPrep,
-    alt: 'Audit preparation team reviewing compliance binder and corrective action plans',
+    alt: 'Minimal paper art illustration of audit checklist, bullseye target, corrective action binder, and shield in deep blue, mint, and cream',
   },
   {
     id: 'food-safety-process-improvement',
     title: 'Food Safety Process Improvement',
     desc: 'Identify opportunities to make food safety routines more consistent, useful and sustainable.',
     image: imgProcessImprovement,
-    alt: 'Clean food processing production line undergoing quality process improvement',
+    alt: 'Minimal paper art illustration of upward growth arrow, process gears, and growing plant in peach, teal, and soft green',
   },
 ];
 
