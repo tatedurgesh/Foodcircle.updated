@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 
 const phone = '+919137639148';
-const email = 'food.circle.consultant@gmail.com';
+const email = 'info@foodcircle.co.in';
 const whatsapp = '919137639148';
 const navItems = [
   ['Home', '#home'], ['About', '#about'], ['Services', '#services'],
